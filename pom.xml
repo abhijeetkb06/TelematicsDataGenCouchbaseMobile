@@ -12,6 +12,18 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
+    <profiles>
+        <profile>
+            <id>CblInternalMaven</id>
+            <repositories>
+                <repository>
+                    <id>my-repo2</id>
+                    <name>CBL_Internal</name>
+                    <url>http://proget.build.couchbase.com/maven2/cimaven</url>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
 
     <dependencies>
         <dependency>
