@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e73ed018-ea15-4d3b-adf3-9e3ab47f0819" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CouchbaseLiteTemp/c50c5f8b49b574800b2bdb0ecc078ad1/libLiteCore.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CouchbaseLiteTemp/c50c5f8b49b574800b2bdb0ecc078ad1/libLiteCoreJNI.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/couchbase/ConcurrencyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/couchbase/ConcurrencyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/couchbase/AppServicesDatabaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/couchbase/AppServicesDatabaseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/couchbase/TelematicsDataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/couchbase/TelematicsDataLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2UfkGB3BCx0oRfLNziGnp1UbiNd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -30,13 +32,22 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Launcher.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/abhijeetbehera/Documents/Git/TelematicsDataGenCouchbaseMobile&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.44181645&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.44181645&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager">
@@ -59,6 +70,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,6 +94,8 @@
       <workItem from="1693345863411" duration="2200000" />
       <workItem from="1693488866054" duration="1000" />
       <workItem from="1693929361593" duration="598000" />
+      <workItem from="1715701589117" duration="647000" />
+      <workItem from="1715702320415" duration="1380000" />
     </task>
     <servers />
   </component>

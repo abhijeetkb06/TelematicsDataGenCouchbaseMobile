@@ -15,7 +15,7 @@ public class AppServicesDatabaseManager {
 
     private static AppServicesDatabaseManager instance = null;
 
-    public static String appServicesEndpoint = "wss://zqnx2n355xgwfkxb.apps.cloud.couchbase.com:4984/telematicsurl";
+    public static String appServicesEndpoint = "wss://d8n93kd4tzs3gokq.apps.cloud.couchbase.com:4984/userprofile";
 
     private static ListenerToken listenerToken;
 

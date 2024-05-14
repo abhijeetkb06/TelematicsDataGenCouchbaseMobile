@@ -57,6 +57,31 @@ public class TelematicsDataLoader extends Thread {
 
 		MutableDocument mutableDocument = new MutableDocument();
 
+		mutableDocument.setString("UserId", UUID.randomUUID().toString());
+		mutableDocument.setString("Username", "User" + random.nextInt(1000));
+		mutableDocument.setString("Email", "user" + index + "@netflix.com");
+		mutableDocument.setString("SubscriptionType", random.nextBoolean() ? "Premium" : "Standard");
+
+		MutableArray favoriteGenres = new MutableArray();
+		favoriteGenres.addString("Action");
+		favoriteGenres.addString("Comedy");
+		favoriteGenres.addString("Drama");
+		mutableDocument.setArray("FavoriteGenres", favoriteGenres);
+
+		MutableDictionary preferences = new MutableDictionary();
+		preferences.setString("Language", random.nextBoolean() ? "English" : "Spanish");
+		preferences.setInt("ParentalControlLevel", random.nextInt(5)); // 0-4 rating level
+		mutableDocument.setDictionary("Preferences", preferences);
+
+		return mutableDocument;
+	}
+
+
+	/*private static MutableDocument generateMockData(int index) {
+		Random random = new Random();
+
+		MutableDocument mutableDocument = new MutableDocument();
+
 		mutableDocument.setString("MessageId", UUID.randomUUID().toString());
 		mutableDocument.setString("DeviceId", "vehicle" + random.nextInt(100));
 		mutableDocument.setString("EventTime", Instant.now().toString());
@@ -97,7 +122,7 @@ public class TelematicsDataLoader extends Thread {
 		mutableDocument.setDictionary("Payload", payload);
 
 		return mutableDocument;
-	}
+	}*/
 
 	private void bulkInsert(List<MutableDocument> data) {
 		AppServicesDatabaseManager dbConfig = AppServicesDatabaseManager.getInstance();
